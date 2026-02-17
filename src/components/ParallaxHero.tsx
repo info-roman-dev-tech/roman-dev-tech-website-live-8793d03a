@@ -43,7 +43,7 @@ const ParallaxHero = () => {
         >
           <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
           <span className="text-xs font-mono text-primary tracking-widest uppercase">
-            Available for projects
+            Verfügbar für Projekte
           </span>
         </div>
 
@@ -51,17 +51,17 @@ const ParallaxHero = () => {
           className="text-5xl sm:text-6xl md:text-7xl font-bold leading-tight mb-6 animate-fade-up"
           style={{ animationDelay: "0.2s", opacity: 0, animationFillMode: "forwards" }}
         >
-          <span className="text-foreground">Small team.</span>
-          <br />
-          <span className="text-gradient">Big results.</span>
-        </h1>
+           <span className="text-foreground">Ein Entwickler.</span>
+            <br />
+            <span className="text-gradient">Große Ergebnisse.</span>
+          </h1>
 
-        <p
-          className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up"
-          style={{ animationDelay: "0.35s", opacity: 0, animationFillMode: "forwards" }}
-        >
-          I'm Roman — a solo developer building clean, functional apps and websites
-          for people who value quality over complexity.
+          <p
+            className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up"
+            style={{ animationDelay: "0.35s", opacity: 0, animationFillMode: "forwards" }}
+          >
+            Ich bin Roman — ein Solo-Entwickler, der saubere, funktionale Apps und Websites
+            baut für Menschen, die Qualität über Komplexität stellen.
         </p>
 
         <div
@@ -72,13 +72,13 @@ const ParallaxHero = () => {
             onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
             className="px-7 py-3.5 rounded-md bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-all duration-200 glow animate-pulse-glow"
           >
-            See what I do
+            Was ich mache
           </button>
           <button
             onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
             className="px-7 py-3.5 rounded-md border border-border bg-surface text-foreground font-semibold hover:border-primary/50 hover:bg-surface-raised transition-all duration-200"
           >
-            Get in touch
+            Kontakt
           </button>
         </div>
       </div>

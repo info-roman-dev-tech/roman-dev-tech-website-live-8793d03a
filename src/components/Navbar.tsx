@@ -32,23 +32,20 @@ const Navbar = () => {
         </button>
 
         <div className="hidden sm:flex items-center gap-8 text-sm font-medium text-muted-foreground">
-          {["services", "about", "contact"].map((section) => (
+          {[
+            { id: "services", label: "Leistungen" },
+            { id: "about", label: "Über mich" },
+            { id: "contact", label: "Kontakt" },
+          ].map((section) => (
             <button
-              key={section}
-              onClick={() => scrollTo(section)}
-              className="capitalize hover:text-primary transition-colors duration-200"
+              key={section.id}
+              onClick={() => scrollTo(section.id)}
+              className="hover:text-primary transition-colors duration-200"
             >
-              {section}
+              {section.label}
             </button>
           ))}
         </div>
-
-        <button
-          onClick={() => scrollTo("contact")}
-          className="text-sm font-semibold px-4 py-2 rounded-md border border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-200 glow"
-        >
-          Let's talk
-        </button>
       </div>
     </nav>
   );

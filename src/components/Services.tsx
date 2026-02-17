@@ -5,22 +5,22 @@ const services = [
     icon: "⚡",
     title: "Web Apps",
     description:
-      "Lightweight, fast, and fully functional web applications built with modern frameworks. From simple tools to small SaaS products.",
-    tags: ["React", "TypeScript", "Tailwind"],
+      "Leichtgewichtige, schnelle und voll funktionsfähige Webanwendungen mit modernen Frameworks. Von einfachen Tools bis hin zu kleinen SaaS-Produkten.",
+    tags: ["React", "TypeScript", "HTML/CSS"],
   },
   {
     icon: "🌐",
-    title: "Small Websites",
+    title: "Kleine Websites",
     description:
-      "Landing pages, portfolio sites, or business websites — clean, responsive, and optimized to make a strong first impression.",
-    tags: ["SEO", "Responsive", "Performance"],
+      "Landingpages, Portfolio-Seiten oder Firmenwebsites — sauber, responsiv und optimiert für einen starken ersten Eindruck.",
+    tags: ["SEO", "Responsiv", "Performance"],
   },
   {
     icon: "🔧",
-    title: "Custom Solutions",
+    title: "Individuelle Lösungen",
     description:
-      "Got a specific problem to solve? I build tailored scripts, automations, or integrations that fit your workflow.",
-    tags: ["APIs", "Automation", "Backend"],
+      "Du hast ein spezielles Problem? Ich entwickle maßgeschneiderte Tools, Automatisierungen oder Anpassungen, die zu deinem Workflow passen.",
+    tags: ["Tools", "Automatisierung", "Anpassung"],
   },
 ];
 
@@ -53,10 +53,10 @@ const Services = () => {
     <section id="services" ref={sectionRef} className="py-28 px-6 max-w-6xl mx-auto">
       <div data-reveal style={{ opacity: 0 }} className="mb-16 text-center">
         <p className="text-xs font-mono text-primary tracking-widest uppercase mb-3">
-          What I build
+          Was ich mache
         </p>
         <h2 className="text-4xl sm:text-5xl font-bold text-foreground">
-          Services
+          Leistungen
         </h2>
       </div>
 
