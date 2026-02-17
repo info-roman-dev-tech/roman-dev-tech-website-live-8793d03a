@@ -18,6 +18,7 @@ const ParallaxHero = () => {
   return (
     <section
       id="hero"
+      aria-label="Hero"
       className="relative h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Parallax background */}

@@ -50,7 +50,7 @@ const Services = () => {
   useRevealOnScroll(sectionRef);
 
   return (
-    <section id="services" ref={sectionRef} className="py-28 px-6 max-w-6xl mx-auto">
+    <section id="services" ref={sectionRef} aria-label="Leistungen" className="py-28 px-6 max-w-6xl mx-auto">
       <div data-reveal style={{ opacity: 0 }} className="mb-16 text-center">
         <p className="text-xs font-mono text-primary tracking-widest uppercase mb-3">
           Was ich mache
