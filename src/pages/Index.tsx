@@ -4,9 +4,24 @@ import Services from "@/components/Services";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Roman Dev Tech",
+  "description": "Solo-Entwickler für Web Apps, kleine Websites und individuelle Lösungen.",
+  "url": "https://romandevtech.com",
+  "sameAs": ["https://instagram.com/roman.dev.tech"],
+  "areaServed": "DE",
+  "serviceType": ["Webentwicklung", "Web Apps", "Websites"],
+};
+
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <main className="min-h-screen bg-background text-foreground">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Navbar />
       <ParallaxHero />
       <Services />
@@ -29,7 +44,7 @@ const Index = () => {
           <span>© {new Date().getFullYear()}</span>
         </div>
       </footer>
-    </div>
+    </main>
   );
 };
 

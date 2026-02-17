@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section id="about" className="py-28 px-6 bg-card/30 border-y border-border">
+    <section id="about" aria-label="Über mich" className="py-28 px-6 bg-card/30 border-y border-border">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         {/* Left: text */}
         <div>
