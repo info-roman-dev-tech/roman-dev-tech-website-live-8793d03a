@@ -21,7 +21,12 @@ const Index = () => {
             <span className="text-primary font-bold">Dev</span>
             <span>Tech</span>
           </span>
-          <span>© {new Date().getFullYear()} · Built with precision</span>
+          <div className="flex items-center gap-4">
+            <a href="/impressum" className="hover:text-primary transition-colors">Impressum</a>
+            <span>·</span>
+            <a href="/datenschutz" className="hover:text-primary transition-colors">Datenschutz</a>
+          </div>
+          <span>© {new Date().getFullYear()}</span>
         </div>
       </footer>
     </div>
