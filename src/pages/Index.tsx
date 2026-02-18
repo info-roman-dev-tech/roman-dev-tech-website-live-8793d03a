@@ -3,6 +3,8 @@ import ParallaxHero from "@/components/ParallaxHero";
 import Services from "@/components/Services";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
+import ImpressumDialog from "@/components/ImpressumDialog";
+import DatenschutzDialog from "@/components/DatenschutzDialog";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -37,9 +39,9 @@ const Index = () => {
             <span>Tech</span>
           </span>
           <div className="flex items-center gap-4">
-            <a href="/impressum" className="hover:text-primary transition-colors">Impressum</a>
+            <ImpressumDialog />
             <span>·</span>
-            <a href="/datenschutz" className="hover:text-primary transition-colors">Datenschutz</a>
+            <DatenschutzDialog />
           </div>
           <span>© {new Date().getFullYear()}</span>
         </div>
