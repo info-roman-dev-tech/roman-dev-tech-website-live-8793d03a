@@ -15,10 +15,11 @@ jobs:
 
       - name: Sync Files to Strato
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
+with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
+          protocol: ftp
           port: 21
+          dangerous-disable-ci-at-end-of-file-if-you-want-to-skip-host-key-check: true
 
