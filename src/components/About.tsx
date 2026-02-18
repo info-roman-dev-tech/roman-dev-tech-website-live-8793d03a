@@ -8,13 +8,13 @@ const About = () => {
             Über mich
           </p>
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-6 leading-tight">
-            Ein Entwickler,<br />
+            Ein Creator,<br />
             <span className="text-gradient">voller Fokus.</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            Hi, ich bin Roman — ein Solo-Entwickler mit Leidenschaft dafür, Ideen in
+            Hi, ich bin Roman — ein App- und Website Creator mit Leidenschaft dafür, Ideen in
             funktionierende Software zu verwandeln. Ich arbeite mit Einzelpersonen,
-            Startups und kleinen Unternehmen, die einen zuverlässigen Entwickler ohne
+            Startups und kleinen Unternehmen, die einen zuverlässigen Creator ohne
             den Overhead einer Agentur brauchen.
           </p>
           <p className="text-muted-foreground leading-relaxed">
@@ -38,7 +38,7 @@ const About = () => {
             <pre className="text-sm font-mono text-muted-foreground leading-relaxed overflow-x-auto">
 {`const developer = {
   name: "Roman",
-  role: "Solo Dev",
+  role: "App & Website Creator",
   stack: [
     "React",
     "TypeScript",
