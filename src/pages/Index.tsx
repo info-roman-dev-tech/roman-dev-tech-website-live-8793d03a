@@ -8,7 +8,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "Roman Dev Tech",
-  "description": "Solo-Entwickler für Web Apps, kleine Websites und individuelle Lösungen.",
+  "description": "App- und Website Creator für Web Apps, kleine Websites und individuelle Lösungen.",
   "url": "https://romandevtech.com",
   "sameAs": ["https://instagram.com/roman.dev.tech"],
   "areaServed": "DE",

@@ -52,7 +52,7 @@ const ParallaxHero = () => {
           className="text-5xl sm:text-6xl md:text-7xl font-bold leading-tight mb-6 animate-fade-up"
           style={{ animationDelay: "0.2s", opacity: 0, animationFillMode: "forwards" }}
         >
-           <span className="text-foreground">Ein Entwickler.</span>
+           <span className="text-foreground">Ein Creator.</span>
             <br />
             <span className="text-gradient">Große Ergebnisse.</span>
           </h1>
@@ -61,7 +61,7 @@ const ParallaxHero = () => {
             className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up"
             style={{ animationDelay: "0.35s", opacity: 0, animationFillMode: "forwards" }}
           >
-            Ich bin Roman — ein Solo-Entwickler, der saubere, funktionale Apps und Websites
+            Ich bin Roman — ein App- und Website Creator, der saubere, funktionale Apps und Websites
             baut für Menschen, die Qualität über Komplexität stellen.
         </p>
 
