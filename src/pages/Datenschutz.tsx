@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ObfuscatedEmail from "@/components/ObfuscatedEmail";
 
 const Datenschutz = () => (
   <div className="min-h-screen bg-background text-foreground px-6 py-20">
@@ -10,17 +11,55 @@ const Datenschutz = () => (
       <div className="text-muted-foreground leading-relaxed space-y-4">
         <p><strong className="text-foreground">1. Datenschutz auf einen Blick</strong></p>
         <p>
-          Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren
-          personenbezogenen Daten passiert, wenn Sie diese Website besuchen.
+          Der Betreiber dieser Website nimmt den Schutz Ihrer persönlichen Daten sehr ernst.
+          Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den
+          gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
         </p>
-        <p><strong className="text-foreground">2. Hosting</strong></p>
-        <p>Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert.</p>
-        <p><strong className="text-foreground">3. Allgemeine Hinweise und Pflichtinformationen</strong></p>
-        <p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.</p>
-        <p><strong className="text-foreground">4. Datenerfassung auf dieser Website</strong></p>
-        <p>Diese Website verwendet keine Cookies und erhebt keine personenbezogenen Daten über Formulare.</p>
-        <p className="text-xs text-muted-foreground/60 mt-8">
-          Platzhaltertext — bitte mit einer vollständigen Datenschutzerklärung ersetzen.
+        <p>
+          Die Nutzung dieser Website ist in der Regel ohne Angabe personenbezogener Daten
+          möglich. Da wir auf dieser Website weder Kontaktformulare noch Analyse-Tools
+          (wie Google Analytics) oder Social-Media-Plugins verwenden, werden über diese
+          Funktionen keine Daten erhoben.
+        </p>
+
+        <p><strong className="text-foreground">2. Verantwortliche Stelle</strong></p>
+        <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
+        <p>
+          Roman Philippi<br />
+          c/o MDC Management#6106<br />
+          Welserstraße 3<br />
+          87463 Dietmannsried<br />
+          E-Mail: <ObfuscatedEmail />
+        </p>
+
+        <p><strong className="text-foreground">3. Datenerfassung auf dieser Website (Server-Log-Files)</strong></p>
+        <p>
+          Der Provider der Seiten erhebt und speichert automatisch Informationen in
+          sogenannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt.
+          Dies sind:
+        </p>
+        <ul className="list-disc list-inside space-y-1 ml-2">
+          <li>Browsertyp und Browserversion</li>
+          <li>Verwendetes Betriebssystem</li>
+          <li>Referrer URL (die zuvor besuchte Seite)</li>
+          <li>Hostname des zugreifenden Rechners</li>
+          <li>Uhrzeit der Serveranfrage</li>
+          <li>IP-Adresse</li>
+        </ul>
+        <p>
+          Diese Daten sind technisch notwendig, um Ihnen die Website anzuzeigen und die
+          Stabilität und Sicherheit zu gewährleisten. Eine Zusammenführung dieser Daten mit
+          anderen Datenquellen wird nicht vorgenommen. Grundlage für die Datenverarbeitung
+          ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse des Websitebetreibers).
+        </p>
+
+        <p><strong className="text-foreground">4. Ihre Rechte</strong></p>
+        <p>
+          Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger
+          und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben
+          außerdem ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Hierzu
+          sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter
+          der im Impressum angegebenen Adresse an uns wenden.
         </p>
       </div>
     </div>
