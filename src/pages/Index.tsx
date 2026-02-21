@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import ImpressumDialog from "@/components/ImpressumDialog";
 import DatenschutzDialog from "@/components/DatenschutzDialog";
+import CookieBanner from "@/components/CookieBanner";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -46,6 +47,7 @@ const Index = () => {
           <span>© {new Date().getFullYear()}</span>
         </div>
       </footer>
+      <CookieBanner />
     </main>
   );
 };
