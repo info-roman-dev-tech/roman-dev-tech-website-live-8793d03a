@@ -13,9 +13,11 @@ const About = () => {
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
             Hi, ich bin Roman — ein App- und Website Creator mit Leidenschaft dafür, Ideen in
-            funktionierende Software zu verwandeln. Ich arbeite mit Einzelpersonen,
-            Startups und kleinen Unternehmen, die einen zuverlässigen Creator ohne
-            den Overhead einer Agentur brauchen.
+            funktionierende Software zu verwandeln. Dabei setze ich auf moderne
+            Baukastensysteme und KI-Unterstützung, um schneller und effizienter zum
+            Ergebnis zu kommen. Ich arbeite mit Einzelpersonen, Startups und kleinen
+            Unternehmen, die einen zuverlässigen Creator ohne den Overhead einer
+            Agentur brauchen.
           </p>
           <p className="text-muted-foreground leading-relaxed">
             Wenn du mit mir arbeitest, arbeitest du direkt mit mir. Keine
