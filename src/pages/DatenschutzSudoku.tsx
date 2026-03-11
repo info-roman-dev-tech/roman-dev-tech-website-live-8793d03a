@@ -1,7 +1,15 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import ObfuscatedEmail from "@/components/ObfuscatedEmail";
 
 const DatenschutzSudoku = () => {
+  useEffect(() => {
+    const meta = document.createElement("meta");
+    meta.name = "robots";
+    meta.content = "noindex, nofollow";
+    document.head.appendChild(meta);
+    return () => { document.head.removeChild(meta); };
+  }, []);
   return (
     <main className="min-h-screen bg-background text-foreground py-16 px-6">
       <div className="max-w-2xl mx-auto space-y-6">
